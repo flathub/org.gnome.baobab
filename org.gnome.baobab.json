@@ -9,6 +9,7 @@
         "--socket=fallback-x11",
         "--socket=wayland",
         "--filesystem=host",
+        "--metadata=X-DConf=migrate-path=/org/gnome/baobab/",
         "--talk-name=org.gtk.vfs",
         "--talk-name=org.gtk.vfs.*",
         "--filesystem=xdg-run/gvfs"
@@ -20,7 +21,6 @@
         {
             "name" : "baobab",
             "buildsystem" : "meson",
-            "builddir" : true,
             "sources" : [
                 {
                     "type": "archive",
