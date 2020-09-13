@@ -1,26 +1,11 @@
 --- a/data/org.gnome.baobab.appdata.xml.in
 +++ b/data/org.gnome.baobab.appdata.xml.in
-@@ -18,5 +18,9 @@
-  <screenshots>
--    <screenshot height="618" width="932" type="default">
--      <image>https://git.gnome.org/browse/baobab/plain/data/baobab.png</image>
--    </screenshot>
-+    <screenshot height="1323" width="855" type="default">
-+      <image>https://gitlab.gnome.org/GNOME/baobab/raw/master/data/default.png</image>
-+    </screenshot>
-+    <screenshot height="1323" width="855">
-+      <caption>Devices and Locations</caption>
-+      <image>https://gitlab.gnome.org/GNOME/baobab/raw/master/data/devicesandlocations.png</image>
-+    </screenshot>
-  </screenshots>
-@@ -34,4 +34,10 @@
-   <developer_name>The GNOME Project</developer_name>
-   <compulsory_for_desktop>GNOME</compulsory_for_desktop>
-   <translation type="gettext">baobab</translation>
-+
-+  <releases>
-+    <release version="3.34.1" date="2019-06-28" />
-+  </releases>
-+
-+  <content_rating type="oars-1.1" />
- </component>
+@@ -41,7 +41,8 @@
+
+   <releases>
++    <release version="3.38.0" date="2020-09-12" />
+     <release version="3.34.0" date="2019-09-09">
+       <description>
+         <p>Updated translations (da, en_GB, eu, fa, hr, mjw, sk, zh_TW)</p>
+       </description>
+     </release>
