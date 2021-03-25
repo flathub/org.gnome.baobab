@@ -1,7 +1,7 @@
 {
     "app-id" : "org.gnome.baobab",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "3.38",
+    "runtime-version" : "40",
     "sdk" : "org.gnome.Sdk",
     "command" : "baobab",
     "finish-args" : [
@@ -24,12 +24,8 @@
             "sources" : [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/baobab/3.38/baobab-3.38.0.tar.xz",
-                    "sha256": "048468147860816b97f15d50b3c84e9acf0539c1441cfeb63703d112e8728329"
-                },
-                {
-                    "type" : "patch",
-                    "path" : "patches/org.gnome.baobab.appdata.xml.patch"
+                    "url": "https://download.gnome.org/sources/baobab/40/baobab-40.0.tar.xz",
+                    "sha256": "a6aeaa2c327a997fe0d5f443ce95b785e2ba6e338fb0a026cb7dc7d7d688d1a7"
                 }
             ]
         }
