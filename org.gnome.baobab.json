@@ -10,9 +10,9 @@
         "--socket=wayland",
         "--filesystem=host",
         "--metadata=X-DConf=migrate-path=/org/gnome/baobab/",
-        "--talk-name=org.gtk.vfs",
         "--talk-name=org.gtk.vfs.*",
-        "--filesystem=xdg-run/gvfs"
+        "--filesystem=xdg-run/gvfs",
+        "--filesystem=xdg-run/gvfsd"
     ],
     "cleanup" : [
         "/share/man"
