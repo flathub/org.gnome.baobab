@@ -1,10 +1,10 @@
 {
-    "app-id" : "org.gnome.baobab",
-    "runtime" : "org.gnome.Platform",
-    "runtime-version" : "40",
-    "sdk" : "org.gnome.Sdk",
-    "command" : "baobab",
-    "finish-args" : [
+    "app-id": "org.gnome.baobab",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "41",
+    "sdk": "org.gnome.Sdk",
+    "command": "baobab",
+    "finish-args": [
         "--share=ipc",
         "--socket=fallback-x11",
         "--socket=wayland",
@@ -14,18 +14,18 @@
         "--filesystem=xdg-run/gvfs",
         "--filesystem=xdg-run/gvfsd"
     ],
-    "cleanup" : [
+    "cleanup": [
         "/share/man"
     ],
-    "modules" : [
+    "modules": [
         {
-            "name" : "baobab",
-            "buildsystem" : "meson",
-            "sources" : [
+            "name": "baobab",
+            "buildsystem": "meson",
+            "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/baobab/40/baobab-40.0.tar.xz",
-                    "sha256": "a6aeaa2c327a997fe0d5f443ce95b785e2ba6e338fb0a026cb7dc7d7d688d1a7",
+                    "url": "https://download.gnome.org/sources/baobab/41/baobab-41.0.tar.xz",
+                    "sha256": "cad6278d2dcc80c84b57105aa5bb58d8a30ce98d6fabd767519ddb86c857e855",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "baobab"
