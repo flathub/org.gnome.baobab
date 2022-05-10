@@ -10,6 +10,7 @@
         "--socket=fallback-x11",
         "--socket=wayland",
         "--filesystem=host",
+        "--filesystem=~/.var/app",
         "--metadata=X-DConf=migrate-path=/org/gnome/baobab/",
         "--talk-name=org.gtk.vfs.*",
         "--filesystem=xdg-run/gvfs",
