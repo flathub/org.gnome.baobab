@@ -20,17 +20,6 @@
     ],
     "modules": [
         {
-            "name" : "glib",
-            "buildsystem" : "meson",
-            "sources" : [
-                {
-                    "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/glib.git",
-                    "commit" : "724df436166b80a1c172d7551d3405620038d79a"
-                }
-            ]
-        },
-        {
             "name": "baobab",
             "buildsystem": "meson",
             "sources": [
