@@ -12,6 +12,7 @@
         "--filesystem=host",
         "--metadata=X-DConf=migrate-path=/org/gnome/baobab/",
         "--talk-name=org.gtk.vfs.*",
+        "--system-talk-name=org.freedesktop.hostname1",
         "--filesystem=xdg-run/gvfs",
         "--filesystem=xdg-run/gvfsd"
     ],
