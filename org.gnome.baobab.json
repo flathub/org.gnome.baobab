@@ -32,6 +32,10 @@
                         "type": "gnome",
                         "name": "baobab"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "metainfo-longer-captions.patch"
                 }
             ]
         }
