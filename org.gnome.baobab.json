@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.baobab",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "42",
+    "runtime-version": "43",
     "sdk": "org.gnome.Sdk",
     "command": "baobab",
     "finish-args": [
@@ -26,12 +26,16 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/baobab/42/baobab-42.0.tar.xz",
-                    "sha256": "4b1aabe6bab1582b3fea79a2829bce7f2415bb6e5062f25357aeedd5317a50dc",
+                    "url": "https://download.gnome.org/sources/baobab/43/baobab-43.0.tar.xz",
+                    "sha256": "52c6864118f5697f5a5736882dcda27db22e7220bc492838deecc699246cdb26",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "baobab"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "metainfo-longer-captions.patch"
                 }
             ]
         }

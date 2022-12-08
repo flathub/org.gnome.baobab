@@ -1,0 +1,18 @@
+diff --git a/data/org.gnome.baobab.appdata.xml.in b/data/org.gnome.baobab.appdata.xml.in
+index 23937d50454a6833da9f2910c2b6331fe0d3516f..51ca9bfbc84457605be87ed2817a96efc8d72bf3 100644
+--- a/data/org.gnome.baobab.appdata.xml.in
++++ b/data/org.gnome.baobab.appdata.xml.in
+@@ -17,11 +17,11 @@
+   </description>
+   <screenshots>
+     <screenshot type="default">
+-      <caption>Devices and Locations</caption>
++      <caption>Devices and Locations View</caption>
+       <image>https://static.gnome.org/appdata/gnome-43/baobab/baobab-main.png</image>
+     </screenshot>
+     <screenshot>
+-      <caption>Scan</caption>
++      <caption>Scan View</caption>
+       <image>https://static.gnome.org/appdata/gnome-43/baobab/baobab-scan.png</image>
+     </screenshot>
+   </screenshots>
