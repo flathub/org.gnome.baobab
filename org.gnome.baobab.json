@@ -1,5 +1,5 @@
 {
-    "app-id": "org.gnome.baobab",
+    "id": "org.gnome.baobab",
     "runtime": "org.gnome.Platform",
     "runtime-version": "43",
     "sdk": "org.gnome.Sdk",
