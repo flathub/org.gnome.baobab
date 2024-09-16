@@ -1,14 +1,14 @@
 {
     "id": "org.gnome.baobab",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "46",
+    "runtime-version": "47",
     "sdk": "org.gnome.Sdk",
-    "sdk-extensions" : [
+    "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.vala"
     ],
-    "build-options" : {
-        "prepend-path" : "/usr/lib/sdk/vala/bin/",
-        "prepend-ld-library-path" : "/usr/lib/sdk/vala/lib"
+    "build-options": {
+        "prepend-path": "/usr/lib/sdk/vala/bin/",
+        "prepend-ld-library-path": "/usr/lib/sdk/vala/lib"
     },
     "command": "baobab",
     "finish-args": [
@@ -34,8 +34,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/baobab/46/baobab-46.0.tar.xz",
-                    "sha256": "ce4def5c82d05671a5009f7bebcf85ac98675d9d8160d28ad9181b269a72e37c",
+                    "url": "https://download.gnome.org/sources/baobab/47/baobab-47.0.tar.xz",
+                    "sha256": "b88f74f9c052d3c2388f7062d228cf5e927545acf7408c56841df80ccd1f9c37",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "baobab"
