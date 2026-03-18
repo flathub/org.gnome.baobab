@@ -1,7 +1,7 @@
 {
     "id": "org.gnome.baobab",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "command": "baobab",
     "finish-args": [
@@ -27,8 +27,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/baobab/49/baobab-49.1.tar.xz",
-                    "sha256": "6243c92002be7e91f5decd249612face2a4a12d3742afd88b086a94b875dffe0",
+                    "url": "https://download.gnome.org/sources/baobab/50/baobab-50.0.tar.xz",
+                    "sha256": "573c84f15f5f963a440500f6f43412c928ac2335f6b69dcb58f1a1fe5201024b",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "baobab"
